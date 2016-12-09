@@ -44,10 +44,9 @@ npm install -g nodemon mocha gulp localtunnel jsdoc http-server jasmine chokidar
 
 # PYTHON
 cd ~/downloads
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh -b -p ~/.local/conda
-rm Miniconda3-latest-Linux-x86_64.sh
-conda install python=2.7
+wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
+bash Miniconda-latest-Linux-x86_64.sh -b -p ~/.local/conda
+rm Miniconda-latest-Linux-x86_64.sh
 echo Conda Location: $(which conda)
 pip install httpie
 
