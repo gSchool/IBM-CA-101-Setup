@@ -1,4 +1,4 @@
-# IBM CS 101 Setup
+# IBM Bluemix Cloud Advisors 101 Setup
 
 In a new terminal window run the following commands 
 
