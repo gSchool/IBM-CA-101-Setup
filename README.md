@@ -2,13 +2,11 @@
 
 In a new terminal window run the following commands 
 
-```sh
-wget https://raw.githubusercontent.com/gschool/IBM-CA-101-Setup/master/c9-setup.sh
-chmod +x c9-setup.sh
-./c9-setup.sh
-exit
-```
-- **NB**: Be sure to exit this terminal after running the script. A new terminal is required to pick up the changes made by this script.
+- `wget https://raw.githubusercontent.com/gschool/IBM-CA-101-Setup/master/c9-setup.sh`
+- `chmod +x c9-setup.sh`
+- `./c9-setup.sh`
+- `exit'
+  - **NB**: Be sure to exit this terminal after running the script. A new terminal is required to pick up the changes made by this script.
 - Inside of `~/.gitconfig`, modify the name and email address to match what you use to log into Bluemix
 	- type `vi ~/.gitconfig` to edit the file
 	- Type `i` to enter insert mode 
