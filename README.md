@@ -1,13 +1,23 @@
 # IBM Bluemix Cloud Advisors 101 Setup
 
-In a new terminal window run the following commands 
-
-- `wget https://raw.githubusercontent.com/gschool/IBM-CA-101-Setup/master/c9-setup.sh`
-- `chmod +x c9-setup.sh`
-- `./c9-setup.sh`
-- `exit`
-  - **NB**: Be sure to exit this terminal after running the script. A new terminal is required to pick up the changes made by this script.
-- Inside of `~/.gitconfig`, modify the name and email address to match what you use to log into Bluemix
+#### Cloud 9 Setup
+1. Register for edX (free)
+  	- [https://www.edx.org](https://www.edx.org/)
+  	- They will send you a confirmation email. Click link to activate.
+1. Go to the following URL to create your Cloud 9 account. Login using your edX account.
+  	- [https://cs50.io/](https://cs50.io/)
+1. After you have a running virtual machine, go to your dashboard, which is the URL + your username
+  	- https://cs50.io/USERNAME
+1. Create a Custom Ubuntu Workspace (labeled Blank)
+    ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/167/set_up_c9_ubuntu_workspace.png)
+1. In a new terminal window run the following commands (one at a time)
+	- `wget https://raw.githubusercontent.com/gschool/IBM-CA-101-Setup/master/c9-setup.sh`
+	- `chmod +x c9-setup.sh`
+	- `./c9-setup.sh`
+	- `exit`
+	- **NB**: Be sure to exit this terminal after running the script. A new terminal is required to pick up the changes made by this script.
+	  
+1. Inside of `~/.gitconfig`, modify the name and email address to match what you use to log into Bluemix
 	- type `vi ~/.gitconfig` to edit the file
 	- Type `i` to enter insert mode 
 	- `ESC` key returns the editor to command mode 
